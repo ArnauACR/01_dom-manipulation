@@ -27,21 +27,21 @@ The following exercises must be completed in `index.js`. Each exercise is explai
 
 ```js
 // EXERCISE 1: Selecting Elements
-// Select the element with the ID 'header' and log it to the console.
+// Select the element with the ID 'mainTitle' and log it to the console.
 ```
 
 ### Exercise 2: Changing HTML Content
 
 ```js
 // EXERCISE 2: Changing HTML Content
-// Change the inner HTML of the element with the ID 'main-content' to contain a <p> tag with the text "Updated Content".
+// Change the inner HTML of the element with the ID 'content' to contain a <p> tag with the text "Updated Content".
 ```
 
 ### Exercise 3: Changing CSS Styles
 
 ```js
 // EXERCISE 3: Changing CSS Styles
-// Change the background color of the element with the class 'container' to 'lightgreen'.
+// Change the background color of the element with the ID 'content' to 'lightgreen'.
 ```
 
 ### Exercise 4: Adding/Removing Classes
