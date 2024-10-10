@@ -79,21 +79,21 @@ The following exercises must be completed in `index.js`. Each exercise is explai
 
 ```js
 // Exercise 8: Working with Input
-// TODO: Add an input event listener to the input field that displays the current input value in the result div
+// Add an input event listener to the input field that displays the current input value in the result div.
 ```
 
-### Exercise 9: Handling Events
+### Exercise 9: Toggling Visibility
 
 ```js
 // Exercise 9: Toggling Visibility
-// TODO: Add a click event listener to the button that toggles the visibility of the content div
+// Add a click event listener to the button with ID 'actionButton' that toggles the visibility of the content div.
 ```
 
-### Exercise 10: Handling Events
+### Exercise 10: Modifying Attributes
 
 ```js
 // Exercise 10: Modifying Attributes
-// TODO: Select the input field and change its placeholder text to "Enter your name"
+// Select the input field and change its placeholder text to "Enter your name".
 ```
 
 ---
