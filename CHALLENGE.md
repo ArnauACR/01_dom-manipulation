@@ -48,7 +48,7 @@ The following exercises must be completed in `index.js`. Each exercise is explai
 
 ```js
 // EXERCISE 4: Adding/Removing Classes
-// Add a new class called 'active' to the element with the class 'menu'.
+// Add a new class called 'active' to the element with the ID 'list'.
 // After 2 seconds, remove the class 'active' from the same element.
 ```
 
@@ -57,14 +57,14 @@ The following exercises must be completed in `index.js`. Each exercise is explai
 ```js
 // EXERCISE 5: Creating and Appending Elements
 // Create a new <button> element with the text 'Click Me'.
-// Append this button to the element with the ID 'button-container'.
+// Append this button to the element with the ID 'content'.
 ```
 
 ### Exercise 6: Removing Elements
 
 ```js
 // EXERCISE 6: Removing Elements
-// Select the element with the class 'advertisement' and remove it from the DOM.
+// Select the element with the ID 'result' and remove it from the DOM.
 ```
 
 ### Exercise 7: Handling Events
