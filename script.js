@@ -1,15 +1,15 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.document.addEventListener('DOMContentLoaded', () => {
 
     //1
-    const mainTitle = document.getElementById('mainTitle');
+    const mainTitle = window.document.getElementById('mainTitle');
     console.log(mainTitle);
   
     //2
-    const paragraphs = document.getElementsByClassName('paragraph');
+    const paragraphs = window.document.getElementsByClassName('paragraph');
     paragraphs[1].textContent = "This paragraph has been changed.";
   
     //3
-    const firstListItem = document.querySelector('li');
+    const firstListItem = window.document.querySelector('li');
     firstListItem.style.color = 'red';
   
     //4
@@ -20,29 +20,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3000);
   
     //5
-    const newListItem = document.createElement('li');
+    const newListItem = window.document.createElement('li');
     newListItem.textContent = 'Item 4';
-    document.getElementById('list').appendChild(newListItem);
+    window.document.getElementById('list').appendChild(newListItem);
   
     //6
-    const list = document.getElementById('list');
+    const list = window.document.getElementById('list');
     list.removeChild(list.lastElementChild);
   
     //7
-    const actionButton = document.getElementById('actionButton');
+    const actionButton = window.document.getElementById('actionButton');
     actionButton.addEventListener('click', () => {
       alert('Button clicked!');
     });
   
     //8
-    const inputField = document.getElementById('inputField');
-    const resultDiv = document.getElementById('result');
+    const inputField = window.document.getElementById('inputField');
+    const resultDiv = window.document.getElementById('result');
     inputField.addEventListener('input', (event) => {
       resultDiv.textContent = event.target.value;
     });
   
     //9
-    const contentDiv = document.getElementById('content');
+    const contentDiv = window.window.document.getElementById('content');
     actionButton.addEventListener('click', () => {
       contentDiv.style.display = contentDiv.style.display === 'none' ? 'block' : 'none';
     });
